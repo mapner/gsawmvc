@@ -1,0 +1,36 @@
+SELECT FIRST 1  * FROM  sys_users WHERE  usr_id  = '$q_usr_id' AND  usr_clave_web  = '$q_usr_clave'
+SELECT FIRST 1  * FROM  sys_users WHERE  usr_id  = '$q_usr_id' AND  usr_clave_web  = '$q_usr_clave'
+SELECT FIRST 1  * FROM  sys_users WHERE  usr_id  = 'ADMIN' AND  usr_clave_web  = ''
+SELECT FIRST 1  * FROM  sys_users WHERE  usr_id  = 'ADMIN' AND  usr_clave_web  = 'master'
+SELECT FIRST 1  * FROM  sys_users WHERE  usr_id  = 'ADMIN' AND  usr_clave_web  = 'master'
+SELECT FIRST 1  * FROM  sys_users WHERE  usr_id  = 'ADMIN' AND  usr_clave_web  = 'master'
+SELECT FIRST 0 SKIP 0 * FROM  CLN_EOS WHERE  os_nombre  LIKE '%%'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 0 SKIP 0 * FROM  CLN_EOS WHERE  os_nombre  LIKE '%%'
+SELECT FIRST 10 SKIP 0 * FROM  CLN_PAC
+SELECT FIRST 10 SKIP 0 * FROM  CLN_PAC
+SELECT FIRST 10 SKIP 0 * FROM  CLN_PAC
+SELECT FIRST 0 SKIP 0 * FROM  CLN_EOS WHERE  os_nombre  LIKE '%%'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 0 SKIP 0 * FROM  CLN_EOS WHERE  os_nombre  LIKE '%%'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 0 SKIP 0 * FROM  CLN_EOS WHERE  os_nombre  LIKE '%%'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 0 SKIP 0 * FROM  CLN_EOS WHERE  os_nombre  LIKE '%%'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 0 SKIP 0 * FROM  CLN_EOS WHERE  os_nombre  LIKE '%%'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 0 SKIP 0 * FROM  CLN_EOS WHERE  os_nombre  LIKE '%%'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 0 SKIP 0 * FROM  CLN_EOS WHERE  os_nombre  LIKE '%%'
+SELECT FIRST 10 SKIP 0 * FROM  CLN_PAC
+SELECT FIRST 10 SKIP 0 * FROM  CLN_PAC
+SELECT FIRST 10 SKIP 0 * FROM  CLN_PAC
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
+SELECT FIRST 10 SKIP 0 * FROM  cln_oau JOIN  cln_pac  ON  cln_oau . pac_id  =  cln_pac . pac_id  JOIN  cln_eos  ON  cln_oau . os_id  =  cln_eos . os_id  JOIN  cln_prf  ON  cln_oau . prf_id_efector  =  cln_prf . prf_id WHERE  cln_pac . pac_apellido  = 'JOSE'
